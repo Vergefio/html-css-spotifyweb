@@ -1,0 +1,13 @@
+/* media query */
+@media (max-width:768) {
+  .top-list {
+    width: calc(100% / 6);
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:768px) {
+  .box {
+    width: calc(100% / 4 - 30px);
+  }
+}
